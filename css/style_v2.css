@@ -25,9 +25,9 @@ body {
 	margin: 0;
 	font-family: 'Cabin', 'Cabin local', sans-serif;
   font-size: 18px;
-  color: #3C3C3C;
+  color: #141414;
 	text-align: center;
-	background: linear-gradient(#EEDCAA, #ECBD3A);
+	background: linear-gradient(#ddd6f3, #ddd6f3);
 	z-index: -1;
 }
 
