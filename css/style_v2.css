@@ -92,7 +92,7 @@ ul {
 
 .sidenav {
   height: 100%;
-  width: 40%;
+  width: 20%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -118,7 +118,7 @@ ul {
 }
 
 .main {
-  margin-left: 40%; /* Same as the width of the sidenav */
+  margin-left: 20%; /* Same as the width of the sidenav */
 	margin-top: 70vh; /* Same as the width of the sidenav */
 	-ms-transform: translate(0, -350px);
   transform: translate(0, -350px);
