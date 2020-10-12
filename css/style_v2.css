@@ -120,8 +120,8 @@ ul {
 .main {
   margin-left: 30%; /* Same as the width of the sidenav */
 	margin-top: 70vh; /* Same as the width of the sidenav */
-	-ms-transform: translate(0, -150px);
-  transform: translate(0, -150px);
+	-ms-transform: translate(0, -350px);
+  transform: translate(0, -350px);
 }
 .mainMob {
 	-ms-transform: translate(0, 110vh);
