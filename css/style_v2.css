@@ -51,14 +51,14 @@ p {
 .largerTxt {
 	font-size: 30px;
 	font-weight: bold;
-	font-family: 'Homemade Apple', 'Homemade Apple local', 'Cabin local', sans-serif;
+	font-family: 'Cabin', 'Cabin local', sans-serif;
 	text-align: center;
 }
 
 h1 {
 	font-size: 30px;
 	font-weight: bold;
-	font-family: 'Homemade Apple', 'Homemade Apple local', 'Cabin local', sans-serif;
+	font-family: 'Cabin', 'Cabin local', sans-serif;
 }
 
 .lineAnim {
