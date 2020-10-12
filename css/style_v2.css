@@ -131,7 +131,7 @@ ul {
 .align-left {
 	text-align: right;
 	position: absolute;
-	left: 20%;
+	left: 50%;
 	-ms-transform: translate(-60%, 0%);
   transform: translate(-60%, 0%);
 	font-weight: normal;
