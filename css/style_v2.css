@@ -3,6 +3,7 @@
 
 @import 'https://fonts.googleapis.com/css?family=Homemade+Apple|Reenie+Beanie|Cabin';
 
+/*
 @font-face {
 	font-family: 'Homemade Apple local', cursive;
 	src: url("../assets/fonts/Homemade_Apple/HomemadeApple.ttf") format('truetype');
@@ -17,6 +18,7 @@
 	font-family: 'Cabin local', cursive;
 	src: url("../assets/fonts/Cabin/Cabin-Regular.ttf") format('truetype');
 }
+*/
 
 body {
 	min-width:600px;
