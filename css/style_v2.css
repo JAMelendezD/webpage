@@ -149,11 +149,11 @@ ul {
 	font-family: "Homemade Apple", "Homemade Apple local", sans-serif;
 	font-size: 50px;
   border-radius: 100%;
-  background: #ECBD3A;
+  background: #ACC7A1;
 	cursor: pointer;
 	position: fixed;
 	top: 80%;
-	left: 45.25%;
+	left: 30.25%;
 	display: inline-block;
 	z-index: 1;
 }
