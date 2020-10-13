@@ -142,27 +142,6 @@ ul {
 	text-shadow: 0px 0px 15px #002381;
 }
 
-.roundBtn {
-	border: 6px solid #3162A1;
-	width: 50px;
-	height: 50px;
-	font-family: "Homemade Apple", "Homemade Apple local", sans-serif;
-	font-size: 50px;
-  border-radius: 100%;
-  background: #ACC7A1;
-	cursor: pointer;
-	position: fixed;
-	top: 80%;
-	left: 88.25%;
-	z-index: 1;
-}
-.roundBtn:hover {
-    border: 6px solid #F2E5BF;
-}
-.roundBtn:active {
-    background: #CFA533;
-		border: 6px solid #F2E5BF;
-}
 #upBtn {
 	position: absolute;
 	top: -14px;
