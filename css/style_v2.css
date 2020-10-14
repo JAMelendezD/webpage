@@ -154,7 +154,7 @@ ul {
 	cursor: pointer;
 	position: fixed;
 	top: 80%;
-	right: 40%;
+	left: 15%;
 	display: inline-block;
 	z-index: 1;
 }
