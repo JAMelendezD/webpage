@@ -151,7 +151,7 @@ ul {
   border-radius: 100%;
   background: #ECBD3A;
 	cursor: pointer;
-	position: fixed;
+	position: absolute;
 	top: 80%;
 	left: 65.8%;
 	display: inline-block;
