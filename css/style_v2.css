@@ -153,7 +153,8 @@ ul {
 	cursor: pointer;
 	position: fixed;
 	top: 80%;
-	right: 30%;
+	right: 40px;
+	display: inline-block;
 	z-index: 1;
 }
 .roundBtn:hover {
