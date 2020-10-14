@@ -151,9 +151,9 @@ ul {
   border-radius: 100%;
   background: #ECBD3A;
 	cursor: pointer;
-	position: absolute;
+	position: fixed;
 	top: 80%;
-	left: 30%;
+	margin-left: 66.8%;
 	display: inline-block;
 	z-index: 1;
 }
