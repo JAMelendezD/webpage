@@ -163,6 +163,7 @@ ul {
 .roundBtn:active {
     background: #CFA533;
 		border: 6px solid #F2E5BF;
+}
 
 #upBtn {
 	position: absolute;
