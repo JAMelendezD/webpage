@@ -159,7 +159,6 @@
 				The correspondence between simulation-derived contacts and experimental mutational data has led to multiple citations, highlighting the predictive power of this approach in understanding viral adaptation.
 			</p>
 			<p><b>Force Field Development:</b></p>
-  			<img width="800" src="./assets/img/na_error.png">
 			<p>
 				Force field development is a critical aspect of computational biophysics, enabling the accurate simulation of molecular systems and the prediction of their behaviors. A force field consists of a set
 				of mathematical functions and parameters that describe the interactions between atoms, including bond stretching, angle bending, torsional rotation, and nonbonded interactions such as van der Waals
@@ -167,6 +166,37 @@
 				grow in complexity—such as in the case of large biomolecules or interactions with external molecules—force fields must be adapted and refined to accurately capture the subtle interplay of atomic forces.
 				Whether for small molecules, proteins, or lipid membranes, force field development is an iterative process that seeks to balance computational efficiency with physical accuracy, ensuring reliable predictions for a wide range of biological phenomena.
 			</p>
+			<img width="800" src="./assets/img/na_error.png">
+			<p>
+				A key aspect of our force field development focuses on improving the representation of ion-protein interactions and their role in biological processes, such as enzyme activity and signal transduction.
+				Ions, such as Li⁺, Mg²⁺, and Na⁺, are crucial for the proper functioning of many proteins and enzymes, particularly in systems where metal cofactors are involved in catalysis or structural stability.
+				Accurate modeling of these interactions requires a detailed understanding of both the electrostatic and polarizable interactions between ions and surrounding protein residues. Additionally, the interactions
+				of ions with nucleotides, such as ATP and GTP, are central to many cellular processes, including energy transfer and molecular signaling. To capture these interactions, we have refined parameters within our
+				force field to better represent ion coordination, solvation, and their binding to protein or nucleotide moieties. These improvements not only enhance the accuracy of simulations but also offer insights into
+				the role of metal ions in regulating biological mechanisms, including the influence of lithium in psychiatric disorders.
+			</p>
+			<img width="800" src="./assets/img/toc1.png">
+			<p>
+				Molecular mechanics simulations have the potential to provide detailed insights into the interactions between ions, proteins, and nucleotides, which are essential in many biological processes.
+				However, accurately modeling these interactions, especially those involving divalent cations like Mg²⁺, has been a challenge. To address this, we developed AMOEBA-HFC by correcting key physical
+				aspects of ion interactions, particularly for cation-coordinating functional groups. These improvements have led to notable advancements, including a reduction in interaction energy errors for
+				Mg²⁺–protein and Na⁺–protein interactions, decreasing the mean absolute errors from 8.7 to 5.3 kcal/mol and 9.6 to 6.3 kcal/mol, respectively. Additionally, simulations with AMOEBA-HFC now predict
+				Mg²⁺–ATP binding free energies with greater accuracy, aligning closely with experimental data. These refinements not only improve the accuracy of ion binding predictions but also offer new insights
+				into how ions like Mg²⁺ interact with ATP in enzymatic processes, which could ultimately guide the development of more effective drugs and therapies targeting these interactions.
+			</p>
+			<img width="800" src="./assets/img/toc.png">
+			<p>
+				Lithium (Li⁺) is a widely used therapy for individuals with bipolar disorder and is increasingly being explored for its therapeutic potential in other neurological conditions. 
+				However, the exact molecular mechanism underlying Li⁺’s action remains unclear, limiting its predictability across various conditions. A key issue in understanding Li⁺’s therapeutic
+				action is determining the fraction of Li⁺ that is free versus bound to ATP in cellular environments. To address this, we utilized molecular dynamics (MD) simulations and kinetic modeling,
+				employing the polarizable AMOEBA-HFC force field, which has been benchmarked against high-level quantum mechanical and experimental data. Our results reveal that ATP, when bound to Mg²⁺ (ATP·Mg),
+				has two binding sites for monovalent cations like Li⁺, Na⁺, and K⁺, with Li⁺ competing for these sites. While Li⁺ has a stronger binding affinity than Na⁺ and K⁺, its therapeutic concentration limits
+				its loading capacity. However, at higher ATP concentrations, up to 50% of Li⁺ can be sequestered by ATP·Mg under physiological conditions. This discovery helps to clarify the bioactive form of Li⁺
+				and provides new structural, thermodynamic, and kinetic insights into how ions, including Li⁺, interact with ATP, shedding light on the molecular mechanisms behind lithium's therapeutic effects.
+			</p>
+			
+			
+			
 			<br><br><br><br><br><br><br><br><br><br><br><br>
 			
 			<img id="3dmod" alt="Scientific Visualization" style="width:150px;height:150px;margin-left:12px;margin-right:12px;border-radius: 50%; background-color:white;" src="./assets/img/3dmodel.png" width="200px" />
