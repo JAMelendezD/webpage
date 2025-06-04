@@ -198,7 +198,7 @@ ul {
   flex-wrap: wrap;
   gap: 10px;
   width: 100%;
-  max-width: 1000px;     /* limit width */
+  max-width: 600px;     /* limit width */
   margin: 0 auto;       /* center it */
   padding: 10px;        /* optional spacing */
 }
