@@ -198,7 +198,9 @@ ul {
   flex-wrap: wrap;
   gap: 10px;
   width: 100%;
-  box-sizing: border-box;
+  max-width: 1000px;     /* limit width */
+  margin: 0 auto;       /* center it */
+  padding: 10px;        /* optional spacing */
 }
 
 .conf-item {
@@ -214,7 +216,7 @@ ul {
   object-fit: cover;
   object-position: center;
   margin-right: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   flex-shrink: 0;
 }
 
