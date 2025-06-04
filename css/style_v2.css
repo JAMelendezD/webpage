@@ -203,7 +203,7 @@ ul {
   display: flex;
   flex-direction: row;
   width: calc(50% - 15px);
-  align-items: flex-start;
+  align-items: center;
 }
 
 .conference-item img {
@@ -218,6 +218,7 @@ ul {
 
 .conference-item div {
   flex: 1;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
