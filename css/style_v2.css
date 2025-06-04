@@ -193,22 +193,22 @@ ul {
 	padding: 10px;
 }
 
-.conference-grid {
+.conf-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-.conference-item {
+.conf-item {
   display: flex;
   flex-direction: row;
-  width: calc(40% - 15px);
+  width: calc(50% - 15px);
   align-items: center;
 }
 
-.conference-item img {
-  width: 300px;
-  height: 150px;
+.conf-item img {
+  width: 200px;
+  height: 120px;
   object-fit: cover;
   object-position: center;
   margin-right: 15px;
@@ -216,13 +216,13 @@ ul {
   flex-shrink: 0;
 }
 
-.conference-item div {
+.conf-item div {
   flex: 1;
   text-align: left;
 }
 
 @media (max-width: 768px) {
-  .conference-item {
+  .conf-item {
     width: 100%;
   }
 }
