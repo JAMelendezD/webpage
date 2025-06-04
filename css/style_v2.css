@@ -208,7 +208,7 @@ ul {
   flex-direction: row;
   width: calc(50% - 10px);
   align-items: center;
-  background-color: #DFDDF9;
+  background-color: #dfddf9;
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
@@ -227,7 +227,7 @@ ul {
 .conf-item div {
   flex: 1;
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
