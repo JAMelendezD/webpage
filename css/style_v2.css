@@ -202,13 +202,13 @@ ul {
 .conference-item {
   display: flex;
   flex-direction: row;
-  width: calc(50% - 15px);
+  width: calc(40% - 15px);
   align-items: center;
 }
 
 .conference-item img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
   margin-right: 15px;
